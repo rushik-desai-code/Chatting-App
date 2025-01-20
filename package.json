@@ -1,0 +1,20 @@
+{
+  "name": "chatting_app",
+  "version": "1.0.0",
+  "description": "A simple chatting app using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "begin": "nodemon index.js"
+  },
+  "author": "Rushik Desai",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
