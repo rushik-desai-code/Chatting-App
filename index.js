@@ -11,7 +11,7 @@ const io=new Server(server)
 
 io.on('connection',(socket)=>{
     socket.on('user-message',(message)=>{
-        io.emit('server-message',message);
+        socket.broadcast.emit('server-message',message);
     })
 })
 
